@@ -1,0 +1,74 @@
+body{
+    background-color: #a1d9f7;
+}
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+ 
+    
+} 
+.navText{
+    font-family:Arial, Helvetica, sans-serif; 
+    text-decoration: none;
+    color: #313131
+    
+}
+.myLogo{
+    display: flex;
+    justify-content: flex-start;
+    height: 70px;
+    width: 70px;
+}
+.intro{
+    padding: 100px;
+}
+.introTxt{
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* footer section: find way to fix */
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: bisque;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+
+.largeCards{
+    display: flex;
+    background-color: hotpink;
+    height: 300px;
+    width: 100%;
+    align-items: center;
+}
+.cardText{
+    cursor: pointer;
+    padding-left: 20%;    
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'IBM Plex Serif', serif;
+
+}
+
+#designProj{
+    background-color: rgb(253, 203, 66);
+}
+#photography{
+    background-color: rgb(255, 116, 116);
+}
+#digitalArt{
+    background-color: #b15eff;
+}
+
+.ftLink{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* insert breakpoints for navbar + footer */
+/* see if nav text can become hamburger menu at phone width */
+

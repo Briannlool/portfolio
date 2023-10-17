@@ -1,0 +1,58 @@
+.aboutMe{
+    background-color: beige;
+    width: 60%;
+    /* float: left; */
+}
+.footer{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+        'resume linkedin' 
+        'email insta' 
+        ;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#resume{
+    grid-area: resume;
+}
+#linkedin{
+    grid-area: linkedin;
+}
+#email{
+    grid-area: email;
+}
+#insta{
+    grid-area: insta;
+}
+
+#test{
+    display: grid; 
+    padding-left: 10%; 
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+        'test1 test3'
+        'test2 test4'
+        ;
+    justify-content: center;
+    align-items: center;
+}
+#test1{
+    grid-area: test1; 
+}
+#test2{
+    grid-area: test2;
+}
+#test3{
+    grid-area: test3;
+}
+#test4{
+    grid-area: test4;
+}
